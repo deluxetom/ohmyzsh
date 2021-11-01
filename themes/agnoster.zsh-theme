@@ -279,4 +279,4 @@ build_prompt() {
   prompt_end
 }
 
-PROMPT='%{%f%b%k%}$(build_prompt)$(kube_ps1) '
+PROMPT='%{%f%b%k%}$(build_prompt) '
